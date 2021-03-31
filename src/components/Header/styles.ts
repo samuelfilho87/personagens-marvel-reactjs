@@ -32,8 +32,10 @@ export const CandidatoContainer = styled.div`
       font-size: 12px;
       text-align: right;
 
-      display: flex;
-      flex-direction: column;
+      a {
+        display: flex;
+        flex-direction: column;
+      }
     }
   }
 `;
